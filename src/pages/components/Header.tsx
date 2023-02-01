@@ -22,7 +22,7 @@ export  default function Header(){
          className='About' href='/Homesections'> About </Link
         > </li>
         <li> <Link
-         className='Projects' href='#'>Projects</Link
+         className='Projects' href='#'>Projectss</Link
         ></li>
         <li> <Link
         className='Blog' href='#'>Blog </Link
