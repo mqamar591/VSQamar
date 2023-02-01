@@ -16,9 +16,6 @@ export  default function Header(){
 </Center>
 
   <Center>
-   
-  
-  
   <nav> <ul className='menu'>
         <li> <Link className='Home' href='/'> Home </Link> </li>
         <li><Link

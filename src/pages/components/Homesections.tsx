@@ -18,7 +18,7 @@ export default function Homesections(){
 <img className='heroimage' src="herosectionimage.png" alt="" />
 <div className='reviews'>
     <p>“Impressive design and user experience.”</p>
-    <p className='title'>John Smith, CEO, XYZ Inc.</p>
+    <p className='title'>John Smith, CEOooo, XYZ Inc.</p>
 </div>
    
 </div>
