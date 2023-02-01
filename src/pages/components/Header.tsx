@@ -1,12 +1,10 @@
 
 import { Flex, Spacer, Text } from '@chakra-ui/react'
-import { Box } from "@chakra-ui/react"
 import { Center } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
 import { Exo } from '@next/font/google'
-
-
-export function Header(){
+import Link from 'next/link'
+export  default function Header(){
  return (
  
   <Flex pl={67.43} pr={67.43} flex='2'>
@@ -22,11 +20,19 @@ export function Header(){
   
   
   <nav> <ul className='menu'>
-        <li><a className='Home' href='/'>Home</a></li>
-        <li><a className='About' href='/Homesections'> About </a> </li>
-        <li> <a className='Projects' href='#'>Projects</a></li>
-        <li> <a className='Blog' href='#'>Blog </a></li>
-        <li><a className='Contact' href='#'> Contact</a> </li>
+        <li> <Link className='Home' href='/'> Home </Link> </li>
+        <li><Link
+         className='About' href='/Homesections'> About </Link
+        > </li>
+        <li> <Link
+         className='Projects' href='#'>Projects</Link
+        ></li>
+        <li> <Link
+        className='Blog' href='#'>Blog </Link
+        ></li>
+        <li><Link
+         className='Contact' href='#'> Contact</Link
+        > </li>
         </ul>
         </nav>
          
